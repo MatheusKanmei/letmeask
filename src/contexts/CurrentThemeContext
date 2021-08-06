@@ -1,0 +1,38 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* import { createContext, ReactNode, useState } from 'react'
+import light from '../styles/themes/light'
+import dark from '../styles/themes/dark'
+
+type ThemeType = {
+  title: string
+
+  colors: {
+    primaryA: string
+    primaryB: string
+
+    background: string
+    text: string
+    textLight: string
+  }
+}
+
+interface CurrentThemeContextType {
+  theme: ThemeType
+  setTheme: unknown
+}
+
+type CurrentThemeProviderProps = {
+  children: ReactNode
+}
+
+export const CurrentThemeContext = createContext({} as CurrentThemeContextType)
+
+export function CurrentThemeProvider(children: CurrentThemeProviderProps) {
+  const [CurrentTheme, setTheme] = useState(light)
+
+  return (
+    <CurrentThemeContext.Provider value={{ CurrentTheme, setTheme }}>
+      {children}
+    </CurrentThemeContext.Provider>
+  )
+} */
