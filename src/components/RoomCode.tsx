@@ -2,7 +2,7 @@
 /* eslint-disable react/require-default-props */
 import copyImg from '../assets/images/copy.svg'
 
-import '../styles/room-code.scss'
+// import '../styles/room-code.scss'
 import { RoomCodeCss } from '../styles/roomCode'
 
 type RoomCodeProps = {

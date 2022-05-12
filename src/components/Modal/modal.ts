@@ -12,6 +12,7 @@ export const ModalCss = styled.div`
     z-index: 99999;
     justify-content: center;
     align-items: center;
+    color: #29292e;
 
     .modal-content {
       display: flex;
